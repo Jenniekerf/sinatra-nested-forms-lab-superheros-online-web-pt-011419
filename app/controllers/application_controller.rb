@@ -8,4 +8,8 @@ get '/' do
   erb :super_hero
 end
 
+post '/teams' do 
+  
+end
+
 end

@@ -9,7 +9,7 @@ get '/' do
 end
 
 post '/teams' do 
-  @ = Pirate.new(params[:pirate])
+  @team = Team.new(params[:team])
 end
 
 end

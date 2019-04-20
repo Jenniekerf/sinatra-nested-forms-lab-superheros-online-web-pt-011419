@@ -8,10 +8,6 @@ get '/' do
   erb :super_hero
 end
 
-get '/new' do 
-  erb :super_hero
-end
-
 post '/teams' do 
   @team = Team.new(params[:team])
   erb :views/super_hero

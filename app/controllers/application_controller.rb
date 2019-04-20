@@ -10,7 +10,7 @@ end
 
 post '/teams' do 
   @team = Team.new(params[:team])
-  erb :views/team
+  erb :team
 end
 
 end
